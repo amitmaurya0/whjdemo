@@ -8,7 +8,7 @@ export const login = (data) => {
     return res.data;
   })
   .catch(err => {
-    return { status: false, msg: "Some error occured." }
+    return { status: false, msg: "Some error occured."+url }
   })
 }
 export const signup = (data) => {

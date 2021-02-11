@@ -29,6 +29,8 @@ const Content = styled.View`
 const LogoText = styled(Text)`
   font-size: 35px;
   margin-bottom: 20px;
+  font-weight: 600;
+  color: white;
 `;
 
 const PreLoginContainer = ({ children, title="Login" }) => {
